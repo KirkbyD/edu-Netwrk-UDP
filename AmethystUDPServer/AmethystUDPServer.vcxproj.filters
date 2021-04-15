@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="cFreeCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="cCommandManager.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugRenderer\cDebugRenderer.cpp">
+      <Filter>Debug Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugRenderer\cDebugRenderer_BuiltInShapes.cpp">
+      <Filter>Debug Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugRenderer\CErrorLog.cpp">
+      <Filter>Debug Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugRenderer\cGLRenderStateHelper.cpp">
+      <Filter>Debug Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugRenderer\COpenGLError.cpp">
+      <Filter>Debug Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="cError.cpp">
+      <Filter>Errors</Filter>
+    </ClCompile>
+    <ClCompile Include="cErrorImp.cpp">
+      <Filter>Errors</Filter>
+    </ClCompile>
+    <ClCompile Include="cFileManager.cpp">
+      <Filter>File Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameObjectFactory.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cComplexObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cModelObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cGLColourHelper.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cModelLoader.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cShader.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextRenderer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cVAOManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cModelManager.cpp">
+      <Filter>Graphics Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightHelper.cpp">
+      <Filter>LightManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightManager.cpp">
+      <Filter>LightManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cLowPassFilter.cpp">
+      <Filter>Low Pass</Filter>
+    </ClCompile>
+    <ClCompile Include="cMediator.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="sNVData.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="cPhysics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="cPhysics_Ericson.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="cPhysicsManger.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="cRenderer.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="cLuaManager.cpp">
+      <Filter>Scripts\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C24BitBMPpixel.cpp">
+      <Filter>Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="cBasicTextureManager.cpp">
+      <Filter>Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextureFromBMP.cpp">
+      <Filter>Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextureManager.cpp">
+      <Filter>Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="cCallbacks.cpp">
+      <Filter>User Input</Filter>
+    </ClCompile>
+    <ClCompile Include="sData.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="cFollow.cpp">
+      <Filter>Commands\Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cMove.cpp">
+      <Filter>Commands\Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cParallelCMD.cpp">
+      <Filter>Commands\Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cRotate.cpp">
+      <Filter>Commands\Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cScale.cpp">
+      <Filter>Commands\Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cSerialCMD.cpp">
+      <Filter>Commands\Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextureBlend.cpp">
+      <Filter>Commands\Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextureSwap.cpp">
+      <Filter>Commands\Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cTrigger.cpp">
+      <Filter>Commands\Command Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyBindings.cpp">
+      <Filter>User Input</Filter>
+    </ClCompile>
+    <ClCompile Include="cUDPServer.cpp">
+      <Filter>UDP Server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cFreeCamera.hpp">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="cCommandManager.hpp">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="iCommand.hpp">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="iCamera.hpp">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugRenderer\cDebugRenderer.hpp">
+      <Filter>Debug Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugRenderer\cErrorLog.hpp">
+      <Filter>Debug Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugRenderer\cGLRenderStateHelper.hpp">
+      <Filter>Debug Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugRenderer\COpenGLError.hpp">
+      <Filter>Debug Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugRenderer\iDebugRenderer.hpp">
+      <Filter>Debug Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="cError.hpp">
+      <Filter>Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="cErrorImp.hpp">
+      <Filter>Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="cFileManager.hpp">
+      <Filter>File Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameObjectFactory.hpp">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cComplexObject.hpp">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cModelObject.hpp">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightObject.hpp">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cGLColourHelper.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cMesh.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cModelLoader.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cShaderManager.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextRenderer.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cVAOManager.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cModelManager.hpp">
+      <Filter>Graphics Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MediatorGlobals.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLCommon.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightHelper.hpp">
+      <Filter>LightManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightManager.hpp">
+      <Filter>LightManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cLowPassFilter.hpp">
+      <Filter>Low Pass</Filter>
+    </ClInclude>
+    <ClInclude Include="cMediator.hpp">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="sNVData.hpp">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="iMediatorInterface.hpp">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="iGameObject.hpp">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cAABB.hpp">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="cPhysics.hpp">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="cPhysicsManager.hpp">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="cRenderer.hpp">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="cLuaManager.h">
+      <Filter>Scripts\LUA</Filter>
+    </ClInclude>
+    <ClInclude Include="C24BitBMPpixel.hpp">
+      <Filter>Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="cBasicTextureManager.hpp">
+      <Filter>Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextureFromBMP.hpp">
+      <Filter>Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextureManager.hpp">
+      <Filter>Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="cCallbacks.hpp">
+      <Filter>User Input</Filter>
+    </ClInclude>
+    <ClInclude Include="sData.hpp">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="cFollow.hpp">
+      <Filter>Commands\Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="cMove.hpp">
+      <Filter>Commands\Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="cParallelCMD.hpp">
+      <Filter>Commands\Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="cRotate.hpp">
+      <Filter>Commands\Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="cScale.hpp">
+      <Filter>Commands\Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="cSerialCMD.hpp">
+      <Filter>Commands\Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextureBlend.hpp">
+      <Filter>Commands\Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextureSwap.hpp">
+      <Filter>Commands\Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="cTrigger.hpp">
+      <Filter>Commands\Command Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="cUDPServer.hpp">
+      <Filter>UDP Server</Filter>
+    </ClInclude>
+    <ClInclude Include="cBuffer.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="cProtocol.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\config\textures\textures.ini">
+      <Filter>Configuration</Filter>
+    </None>
+    <None Include="data\config\shaders\shaders.ini">
+      <Filter>Configuration</Filter>
+    </None>
+    <None Include="data\config\textures\skybox_textures.ini">
+      <Filter>Configuration</Filter>
+    </None>
+    <None Include="data\config\physics\physics.ini">
+      <Filter>Configuration</Filter>
+    </None>
+    <None Include="data\config\models\meshes.ini">
+      <Filter>Configuration</Filter>
+    </None>
+    <None Include="data\config\models\models_physics_aabb_implementation_testing.ini">
+      <Filter>Configuration</Filter>
+    </None>
+    <None Include="data\config\lights\lights.ini">
+      <Filter>Configuration</Filter>
+    </None>
+    <None Include="data\shaders\vertexShader01.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="data\shaders\textfragshader01.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="data\shaders\textvertexshader01.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="data\shaders\fragmentShader01.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="data\config\complex\complex.ini">
+      <Filter>Configuration</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{cf3996fa-b755-4e81-9679-1049a344d18c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands">
+      <UniqueIdentifier>{3b800093-1f13-4733-b4ae-e1978646f934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands\Command Classes">
+      <UniqueIdentifier>{ecbb047f-908a-4e31-a245-9b0401311f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{27909062-8a8b-4b6d-8710-c37654db8b27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug Renderer">
+      <UniqueIdentifier>{9d931a7d-eedc-4a78-a3ce-68691aa15f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Errors">
+      <UniqueIdentifier>{f6e98dfb-381e-4c10-8a7e-429f8fa98f0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File Manager">
+      <UniqueIdentifier>{67c6036c-5a8e-476c-8590-7f7dcb5d5a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{653628f1-471d-4eb4-8cc9-6c3eb34a2e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{59279bff-4f1a-4f6a-a0b8-1a0e5e373dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics Manager">
+      <UniqueIdentifier>{5948ace0-bc0d-42f0-9dcc-b44761b1b908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4c63c46c-d5a4-4c81-9159-f7ce85117064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LightManager">
+      <UniqueIdentifier>{db1b2723-8c0e-4516-8e4b-164fe99f6def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Low Pass">
+      <UniqueIdentifier>{26d0766b-9b1b-45cc-8c23-76f2f9fbffd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mediator">
+      <UniqueIdentifier>{31988513-f9b4-4123-895b-c93d322d2ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{1032a683-2a1d-4015-9a79-62a00ab90a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{1641dbd3-62b9-42e3-a54a-3fd01fc650ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{68c577cf-28e9-402e-ae18-7c46cdbb5c00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\LUA">
+      <UniqueIdentifier>{02d71bda-39a1-414e-b3c4-bf7a9746627e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{6f5cbef8-668a-4bcb-b163-e5bac573dc8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f0df1041-4c39-4571-9223-b848acf75851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Textures">
+      <UniqueIdentifier>{a27ce43d-2bbc-47cf-9da0-cd081db174ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Input">
+      <UniqueIdentifier>{2fd401b3-94b3-4300-8594-566a312a613d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UDP Server">
+      <UniqueIdentifier>{1dc58e9a-ea95-4a5a-83f5-2c43242a8728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{055ddc93-891b-4a67-84e1-b389f9238c44}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
